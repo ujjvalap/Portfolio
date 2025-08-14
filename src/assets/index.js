@@ -31,26 +31,15 @@ import postman from "./tech/postman.png";
 import sql from "./tech/sql.svg";
 import npm from "./tech/npm.png";
 import vue from "./tech/vue.svg"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import movie from "./movie.png"
-import shop from "./shop.png"
-import youtube from "./youtube.png"
+
 import up from "./up.png"
 import liveLink from "./liveLink.png"
-import portfolio15 from "./portfolio15.png"
-import portfolio16 from "./portfolio16.png"
-import portfolio17 from "./portfolio17.png"
+
+
 import LOGO2 from "./logo.jpg";
-import tiktok from "./tiktok.png";
-import ig from "./ig.png";
 import linktree from "./linktree.png";
 import smartrep from "./smartrep.png";
-import matrixai from "./matrixai.png";
-import beeclone from "./beeclone.png";
-import notable from "./notable.png";
-import zapflow from "./zapflow.png";
+
 import codenest from "./codenest.png"
 import codeswap from "./Codeswap.png"
 import simon from "./Simon.png"
@@ -90,13 +79,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+
+ 
   NeoDocto,
-  movie,
-  shop,
-  youtube,
+ 
+  
   up,
   python,
   postman,
@@ -104,18 +91,11 @@ export {
   npm,
   vue,
   liveLink,
-  portfolio15,
-  portfolio16,
-  portfolio17,
   LOGO2,
-  tiktok,
-  ig,
   linktree,
   smartrep,
-  matrixai,
-  beeclone,
-  notable,
-  zapflow,
+  
+
   codeswap,
   codenest,
   simon,
