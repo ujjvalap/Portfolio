@@ -12,18 +12,13 @@ import {
   StarsCanvas,
   Footer,
   Profile,
-<<<<<<< HEAD
-  Education
-} from "./components";
-
-=======
   Education,
   Certificates
+  
   
 } from "./components";
 
 
->>>>>>> old-history
 const App = () => {
   return (
     <BrowserRouter>
@@ -39,14 +34,9 @@ const App = () => {
           <Experience />
           <Tech />
           <Works />
-<<<<<<< HEAD
-          <Profile />
           <Feedbacks />
-=======
-           <Feedbacks />
-          <Profile />
+           <Profile />
           <Certificates/>
->>>>>>> old-history
           <Contact />
           <Footer />
         </div>

@@ -31,17 +31,6 @@ import postman from "./tech/postman.png";
 import sql from "./tech/sql.svg";
 import npm from "./tech/npm.png";
 import vue from "./tech/vue.svg"
-<<<<<<< HEAD
-
-import up from "./up.png"
-import liveLink from "./liveLink.png"
-
-
-import LOGO2 from "./logo.jpg";
-import linktree from "./linktree.png";
-import smartrep from "./smartrep.png";
-
-=======
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -62,7 +51,6 @@ import matrixai from "./matrixai.png";
 import beeclone from "./beeclone.png";
 import notable from "./notable.png";
 import zapflow from "./zapflow.png";
->>>>>>> old-history
 import codenest from "./codenest.png"
 import codeswap from "./Codeswap.png"
 import simon from "./Simon.png"
@@ -102,13 +90,6 @@ export {
   shopify,
   starbucks,
   tesla,
-<<<<<<< HEAD
-
- 
-  NeoDocto,
- 
-  
-=======
   carrent,
   jobit,
   tripguide,
@@ -116,7 +97,6 @@ export {
   movie,
   shop,
   youtube,
->>>>>>> old-history
   up,
   python,
   postman,
@@ -124,13 +104,6 @@ export {
   npm,
   vue,
   liveLink,
-<<<<<<< HEAD
-  LOGO2,
-  linktree,
-  smartrep,
-  
-
-=======
   portfolio15,
   portfolio16,
   portfolio17,
@@ -143,7 +116,6 @@ export {
   beeclone,
   notable,
   zapflow,
->>>>>>> old-history
   codeswap,
   codenest,
   simon,

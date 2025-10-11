@@ -18,42 +18,13 @@ import {
   figma,
   selenium,
   github,
-<<<<<<< HEAD
   NeoDocto,
-=======
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  NeoDocto,
-  movie,
-  shop,
-  youtube,
->>>>>>> old-history
   python,
   postman,
   sql,
   npm,
   vue,
-<<<<<<< HEAD
  
-=======
-  liveLink,
-  portfolio15,
-  portfolio16,
-  portfolio17,
-  linktree,
-  tiktok,
-  ig,
-  beeclone,
-  smartrep,
-  matrixai,
-  zapflow,
-  notable,
->>>>>>> old-history
   codeswap,
   codenest,
   simon,
@@ -74,11 +45,7 @@ const educations = [
     branch:
       "Computer Science & Engineering",
     marks:
-<<<<<<< HEAD
-      "CGPA : 7.0 / 10",
-=======
       "CGPA : 7.15 / 10",
->>>>>>> old-history
     name: "Sagar Institute Of Science Technology & Engineering Bhopal ",
     year: "(2022 - 2026)",
     image: clg,
@@ -338,13 +305,8 @@ const projects = [
       },
     ],
     image: codenest,
-<<<<<<< HEAD
-    source_code_link: "https://github.com/ujjvalap/Codenest_Client",
-    liveUrl: "https://dashing-pavlova-301bef.netlify.app/",
-=======
     source_code_link: "https://github.com/ujjvalap",
     liveUrl: "https://codenest-arww.onrender.com/",
->>>>>>> old-history
   },
   {
     name: "Simon-Game",
@@ -392,8 +354,6 @@ const projects = [
   
 ];
 
-<<<<<<< HEAD
-=======
 // Certification 
 
 
@@ -429,7 +389,6 @@ const certificates = [
   },
 ];
 
->>>>>>> old-history
 export {
   services,
   technologies,
@@ -438,10 +397,6 @@ export {
   projects,
   imageProjects,
   profiles,
-<<<<<<< HEAD
-  educations
-=======
   educations,
   certificates
->>>>>>> old-history
 };

@@ -10,10 +10,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
 import Profile from './Profile';
-<<<<<<< HEAD
-=======
 import Certificates from './Certificate';
->>>>>>> old-history
 import Education from './Education';
 
 export {
@@ -33,9 +30,6 @@ export {
   Footer,
   TicoCanvas,
   Profile,
-<<<<<<< HEAD
-=======
   Certificates,
->>>>>>> old-history
   Education
 };
