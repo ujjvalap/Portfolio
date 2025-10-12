@@ -62,6 +62,14 @@ import leetcode from "./leetcode.jpg"
 import mp from "./Mp.jpg"
 import clg from "./clg.jpg"
 
+// Cetricate 
+
+import image from "../assets/certificate/image.png";
+import practice from "../assets/certificate/Participte.jpg";
+import intro from "../assets/certificate/Intro.jpg";
+import Bits from "../assets/certificate/Bits.jpg";
+import python1 from "../assets/certificate/Python_Essentials_1.jpg";
+import python2 from "../assets/certificate/Python_Essentials_2.jpg";
 
 export {
   logo,
@@ -125,5 +133,11 @@ export {
   gfg,
   leetcode,
   mp,
-  clg
+  clg,
+  image,
+  practice,
+  Bits,
+  python2,
+  python1,
+  intro
 };

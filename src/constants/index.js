@@ -34,7 +34,13 @@ import {
   gfg,
   leetcode,
   clg,
-  mp
+  mp,
+  image,
+  intro,
+  practice,
+  Bits,
+  python1,
+  python2
   
 
 
@@ -360,33 +366,34 @@ const projects = [
 
 const certificates = [
   {
-    title: "Full Stack Web Development",
-    issuer: "Coursera",
-    date: "June 2024",
-    image: "/images/webdev-cert.jpg",
-    link: "#",
+    title: "Python Essentials 1",
+    issuer: "Cisco Netacad",
+    date: "28 Dec 2024",
+    image: python1,
+    link: "https://www.netacad.com/courses/python-essentials-1?courseLang=en-US",
   },
   {
-    title: "C++ Programming and OOPs",
-    issuer: "Coding Ninjas",
-    date: "May 2024",
-    image: "/images/cpp-cert.jpg",
-    link: "#",
+    title: "Python Essentials 2",
+    issuer: "Cisco Netacad",
+    date: "Apr 17, 2025",
+    image: python2,
+    link: "https://www.netacad.com/courses/python-essentials-2?courseLang=en-US#",
   },
   {
-    title: "React.js Advanced",
-    issuer: "Udemy",
-    date: "July 2024",
-    image: "/images/react-cert.jpg",
-    link: "#",
+    title: "Wall Street Business Challenge '23",
+    issuer: "Unstop ",
+    date: "24 Nov 2023",
+    image: Bits,
+    link: "https://unstop.com/certificate-preview/5846924c-2c6d-4713-a7d9-9535cd7f7a0a",
   },
   {
-    title: "Database Design & MongoDB",
-    issuer: "FreeCodeCamp",
-    date: "Aug 2024",
-    image: "/images/mongodb-cert.jpg",
-    link: "#",
+    title: "MERN Full-Stack Developer Evaluation",
+    issuer: "Unstop",
+    date: "10 Dec 2024",
+    image: image,
+    link: "https://unstop.com/certificate-preview/bf5ee98a-2db5-4cb0-b8be-5b94853253d6",
   },
+  
 ];
 
 export {

@@ -89,30 +89,41 @@ return (
       </h2>
 
       {/* Contact Info Section */}
-      <div className="mt-5 flex flex-col sm:flex-row gap-6">
-        <article className="flex items-center gap-3 p-3 bg-white rounded-lg shadow-md">
-          <MdEmail className="text-2xl text-blue-600" />
-          <a
-            href="mailto:ujjvalpateliya@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 font-medium hover:underline"
-          >
-            ujjvalpateliya@gmail.com
-          </a>
-        </article>
-        <article className="flex items-center gap-3 p-3 bg-white rounded-lg shadow-md">
-          <BsWhatsapp className="text-2xl text-green-500" />
-          <a
-            href="https://api.whatsapp.com/send/?phone=918435423244&text&app_absent=0&lang=en"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-green-600 font-medium hover:underline"
-          >
-            +91 84354 32444
-          </a>
-        </article>
-      </div>
+      {/* Contact Info Section */}
+<div className="mt-5 flex flex-col sm:flex-row gap-6">
+  {/* Email Card */}
+  <motion.article
+    whileHover={{ scale: 1.05 }}
+    className="flex items-center gap-3 p-4 bg-white/10 rounded-2xl border border-white/20 shadow-md hover:shadow-blue-500/40 backdrop-blur-lg transition-all duration-300"
+  >
+    <MdEmail className="text-2xl text-blue-400 flex-shrink-0" />
+    <a
+      href="mailto:ujjvalpateliya@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-300 font-medium hover:text-blue-400 transition-colors duration-300"
+    >
+      ujjvalpateliya@gmail.com
+    </a>
+  </motion.article>
+
+  {/* WhatsApp Card */}
+  <motion.article
+    whileHover={{ scale: 1.05 }}
+    className="flex items-center gap-3 p-4 bg-white/10 rounded-2xl border border-white/20 shadow-md hover:shadow-green-500/40 backdrop-blur-lg transition-all duration-300 whitespace-nowrap"
+  >
+    <BsWhatsapp className="text-2xl text-green-400 flex-shrink-0" />
+    <a
+      href="https://api.whatsapp.com/send/?phone=918435423244&text&app_absent=0&lang=en"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-green-300 font-medium hover:text-green-400 transition-colors duration-300 truncate"
+      style={{ wordBreak: "keep-all" }}
+    >
+      +91 84354 32444
+    </a>
+  </motion.article>
+</div>
 
       {/* Contact Form */}
       <form
@@ -154,12 +165,13 @@ return (
           />
         </label>
 
-        <button
-          type="submit"
-          className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-        >
-          {loading ? "Sending..." : "Send"}
-        </button>
+       <button
+  type="submit"
+  className="bg-gradient-to-r from-teal-500 to-blue-500 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md hover:shadow-teal-500/40 transition-all duration-300"
+>
+  {loading ? "Sending..." : "Send"}
+</button>
+
       </form>
     </motion.div>
 
