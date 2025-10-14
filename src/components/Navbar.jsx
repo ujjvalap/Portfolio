@@ -26,8 +26,9 @@ const Navbar = () => {
     <nav
       className={`
         ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 
-        ${scrolled ? "backdrop-blur-sm" : "bg-transparent"}
       `}
+      // it is the above to use the backdrop-blur-sm to use in propatices in and bg-tansparent to use in blow 
+      // ${scrolled ? "backdrop-blur-sm" : "bg-transparent"}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo + Title */}
