@@ -1,3 +1,4 @@
+import { Images } from "lucide-react";
 import {
   mobile,
   backend,
@@ -35,6 +36,7 @@ import {
   leetcode,
   clg,
   mp,
+  Images1,
   image,
   intro,
   practice,
@@ -311,8 +313,8 @@ const projects = [
       },
     ],
     image: codenest,
-    source_code_link: "https://github.com/ujjvalap",
-    liveUrl: "https://codenest-arww.onrender.com/",
+    source_code_link: "https://github.com/ujjvalap/Codenest_Client",
+    liveUrl: "https://dashing-pavlova-301bef.netlify.app/",
   },
   {
     name: "Simon-Game",
@@ -357,6 +359,30 @@ const projects = [
     image: codeswap,
     sourceCodeLink: "https://github.com/ujjvalap",
   },
+   {
+  name: "NeuroMart",
+  description:
+    "NeuroMart is an AI-powered shopping platform that provides personalized product recommendations using user behavior and smart analytics. It offers fast search, smooth navigation, and a clean modern UI for a better shopping experience.",
+  tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "MongoDB",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Tailwind",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: Images1, // Make sure 'codeswap' is imported
+  sourceCodeLink: "https://github.com/ujjvalap/NeuroMarth_Client",
+  liveUrl: "https://neuro-marth-client.vercel.app/",
+  
+}
+
   
 ];
 

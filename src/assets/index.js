@@ -51,16 +51,18 @@ import matrixai from "./matrixai.png";
 import beeclone from "./beeclone.png";
 import notable from "./notable.png";
 import zapflow from "./zapflow.png";
-import codenest from "./codenest.png"
-import codeswap from "./Codeswap.png"
-import simon from "./Simon.png"
-import front from "./Front.png"
-import coding from "./coding.jpg"
-import codolio from "./codolio.jpg"
-import gfg from "./dataset-cover.png"
-import leetcode from "./leetcode.jpg"
-import mp from "./Mp.jpg"
-import clg from "./clg.jpg"
+import codenest from "./codenest.png";
+import codeswap from "./Codeswap.png";
+import Images1 from "./tech/image.png";
+import simon from "./Simon.png";
+import front from "./Front.png";
+import coding from "./coding.jpg";
+import codolio from "./codolio.jpg";
+import gfg from "./dataset-cover.png";
+import leetcode from "./leetcode.jpg";
+import mp from "./Mp.jpg";
+import clg from "./clg.jpg";
+
 
 // Cetricate 
 
@@ -139,5 +141,6 @@ export {
   Bits,
   python2,
   python1,
-  intro
+  intro,
+  Images1
 };
