@@ -7,6 +7,7 @@ import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import NeoDocto from "./NeoDocto.png";
+import Codeveda from "./Codeveda.png";
 
 import css from "./tech/css.png";
 import c from "./tech/c.png"
@@ -142,5 +143,6 @@ export {
   python2,
   python1,
   intro,
-  Images1
+  Images1,
+  Codeveda
 };

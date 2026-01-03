@@ -1,4 +1,4 @@
-import { Images } from "lucide-react";
+import { Code, Images } from "lucide-react";
 import {
   mobile,
   backend,
@@ -20,6 +20,7 @@ import {
   selenium,
   github,
   NeoDocto,
+  Codeveda,
   python,
   postman,
   sql,
@@ -239,8 +240,32 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
- 
+
+    {
+    title: "Full-Stack Developer",
+    company_name: "Codveda Technologies",
+    icon: Codeveda,
+    iconBg: "#020202ff",
+    date: "Dec 2025 - Jan 2026",
+    points: [
+       "During my internship, I worked on developing basic web pages using HTML for structure and CSS for styling. I used JavaScript to add simple interactivity such as form validation, button actions, and dynamic content updates. I focused on creating responsive designs so that the web pages work properly on mobile, tablet, and desktop devices. I also tested the websites on different browsers to ensure smooth performance. While working on tasks, I collaborated with team members, fixed UI issues, and followed clean coding practices to improve the overall user experience.",
+    ],
+  },
+ {
+    title: "Frontend Developer Trainee ",
+    company_name: "Sofzenix IT Solutions LLP",
+    icon: Codeveda,
+    iconBg: "#020202ff",
+    date: "Jan 2026 - Prasent",
+    points: [
+       "During my internship, I worked on developing basic web pages using HTML for structure and CSS for styling. I used JavaScript to add simple interactivity such as form validation, button actions, and dynamic content updates. I focused on creating responsive designs so that the web pages work properly on mobile, tablet, and desktop devices. I also tested the websites on different browsers to ensure smooth performance. While working on tasks, I collaborated with team members, fixed UI issues, and followed clean coding practices to improve the overall user experience.",
+    ],
+  },
 ];
+
+ 
+
+
 
 const testimonials = [
   {
