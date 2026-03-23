@@ -54,8 +54,8 @@ const educations = [
     branch:
       "Computer Science & Engineering",
     marks:
-      "CGPA : 7.15 / 10",
-    name: "Sagar Institute Of Science Technology & Engineering Bhopal ",
+      "CGPA : 7.32 / 10",
+    name: "Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal",
     year: "(2022 - 2026)",
     image: clg,
   },
@@ -63,8 +63,8 @@ const educations = [
     degree:
       "12th Grade",
     branch : "Science",
-    marks:
-      "Percentage : 66.00 %",
+    // marks:
+    //   "Percentage : 66.00 %",
     name: "Government Higher Secondary School Chhindwara",
     year: "2022",
     image: mp,
@@ -73,8 +73,8 @@ const educations = [
     degree:
       "10th Grade",
     branch: "SSC",
-    marks:
-      "Percentage : 67.20 %",
+    // marks:
+    //   "Percentage : 67.20 %",
     name: "Government High School Chhindwara",
     year: "2020",
     image: mp,
