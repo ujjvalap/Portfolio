@@ -63,6 +63,9 @@ import gfg from "./dataset-cover.png";
 import leetcode from "./leetcode.jpg";
 import mp from "./Mp.jpg";
 import clg from "./clg.jpg";
+import Mandvi from './Mandvi.jpeg';
+import Nyara from './Nyara_AI.png';
+import Sed from './Sde.png';
 
 
 // Cetricate 
@@ -144,5 +147,8 @@ export {
   python1,
   intro,
   Images1,
-  Codeveda
+  Codeveda,
+  Mandvi,
+  Sed,
+  Nyara
 };

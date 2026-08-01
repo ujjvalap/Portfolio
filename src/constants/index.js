@@ -43,7 +43,10 @@ import {
   practice,
   Bits,
   python1,
-  python2
+  python2,
+  Sed,
+  Nyara,
+  Mandvi
   
 
 
@@ -54,7 +57,7 @@ const educations = [
     branch:
       "Computer Science & Engineering",
     marks:
-      "CGPA : 7.32 / 10",
+      "CGPA : 7.46 / 10",
     name: "Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal",
     year: "(2022 - 2026)",
     image: clg,
@@ -296,7 +299,7 @@ const testimonials = [
 const imageProjects = [
   {
     id: 1,
-    image: front,
+    image: codenest,
     url: "https://madamcoon.com/",
     title: "Coding Test Platfrom",
     description: "",
@@ -315,6 +318,29 @@ const imageProjects = [
     title: "Simon Game",
     description: "",
   },
+   {
+    id: 4,
+    image: Nyara,
+    url: "https://jj-tailortech.vercel.app/",
+    title: "Voice Ai",
+    description: "",
+  },
+  
+  {
+    id: 5,
+    image: Sed,
+    url: "https://jj-tailortech.vercel.app/",
+    title: "DSA SDE",
+    description: "",
+  },
+   {
+    id: 6,
+    image: Mandvi,
+    url: "https://jj-tailortech.vercel.app/",
+    title: "Mandvi",
+    description: "",
+  }
+  
   
 ];
 
@@ -342,49 +368,6 @@ const projects = [
     liveUrl: "https://dashing-pavlova-301bef.netlify.app/",
   },
   {
-    name: "Simon-Game",
-    description:
-      "Simon Game is an electronic memory game where players repeat an increasing sequence of lights and sounds. It features four colored buttons (red, blue, green, yellow), each with a unique sound.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: simon,
-    sourceCodeLink: "https://github.com/ujjvalap",
-    liveUrl: "https://simon-game-tau-sooty.vercel.app/"
-  },
-  {
-    name: "CodeSwap",
-    description:
-      "CodeSwap is a collaborative coding platform for sharing and editing code snippets in real time. It supports multiple languages, version control, and live collaboration.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: codeswap,
-    sourceCodeLink: "https://github.com/ujjvalap",
-  },
-   {
   name: "NeuroMart",
   description:
     "NeuroMart is an AI-powered shopping platform that provides personalized product recommendations using user behavior and smart analytics. It offers fast search, smooth navigation, and a clean modern UI for a better shopping experience.",
@@ -406,7 +389,110 @@ const projects = [
   sourceCodeLink: "https://github.com/ujjvalap/NeuroMarth_Client",
   liveUrl: "https://neuro-marth-client.vercel.app/",
   
-}
+},
+
+{
+    name: "MandviCart",
+    description:
+      "MandviCart is a MERN-based e-commerce marketplace for vegetables and groceries, featuring multi-role authentication, product management, cart system, secure payments, order tracking, admin dashboard, and delivery management for a seamless online shopping experience.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+       {
+        name:"Authentication: JWT / Clerk Authentication",
+        color:"blue-text-gradient"
+      }
+    ],
+    image: Mandvi,
+    sourceCodeLink: "https://github.com/ujjvalap/MandviCart",
+    liveUrl:"https://mandvi-cart-alpha.vercel.app"
+  
+  },
+  {
+    name: "Nyra-AI-Assistant",
+    description:
+      "Nyra AI Assistant is an AI-powered virtual assistant that enables smart conversations, real-time query handling, personalized responses, task assistance, and an interactive user experience using modern web technologies and AI integration.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name:"Authentication: JWT / Clerk Authentication",
+        color:"pink-text-gradient"
+      },
+      {
+        name: "AI APIs / NLP Models",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Nyara,
+    sourceCodeLink: "https://github.com/ujjvalap/Nyra-AI-Assistant",
+    liveUrl:"https://nyra-ai-assistant.vercel.app/"
+
+  
+  },
+  {
+    name: "CodeNest-SDE-Sheet",
+    description:
+      "Simon Game is an electronic memory game where players repeat an increasing sequence of lights and sounds. It features four colored buttons (red, blue, green, yellow), each with a unique sound.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Sed,
+    sourceCodeLink: "https://github.com/ujjvalap/CodeNest-SDE-Client"
+    // liveUrl: "https://simon-game-tau-sooty.vercel.app/"
+  },
+  
+  {
+    name: "Simon-Game",
+    description:
+      "Simon Game is an electronic memory game where players repeat an increasing sequence of lights and sounds. It features four colored buttons (red, blue, green, yellow), each with a unique sound.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: simon,
+    sourceCodeLink: "https://github.com/ujjvalap",
+    liveUrl: "https://simon-game-tau-sooty.vercel.app/"
+  },
+  
+   
 
   
 ];
