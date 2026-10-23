@@ -56,8 +56,8 @@ const educations = [
     degree: "Bachelor of Technology",
     branch:
       "Computer Science & Engineering",
-    marks:
-      "CGPA : 7.46 / 10",
+    // marks:
+      // "CGPA : 7.46 / 10",
     name: "Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal",
     year: "(2022 - 2026)",
     image: clg,
